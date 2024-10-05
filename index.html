@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Patricio Israel Tristán García, Heriberto Perez Ruiz">
+    <title>Instrumentos Musicales</title>
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Instrumentos Musicales</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Significado eh historia</h2>
+            <p>Un instrumento musical es un sistema compuesto por la combinación de uno o más sistemas resonantes y medios para su vibración, construido con el fin<br>
+               de producir sonido en uno o más tonos que puedan ser combinados por un intérprete para producir música. Al final, cualquier cosa que produzca sonido<br> 
+               armónico puede servir de instrumento musical, pero la expresión se reserva, generalmente, a objetos que tienen ese propósito en específico.<br></p>
+            <p>Los instrumentos musicales mas antiguos encontrados datan de mas de 50,000 años de antiguedad, esto nos indica que desde tiempos inmemorables<br>
+                los seres humanos han utilizado instrumentos musicales para comunicarse, expresar sus emociones y contar historias.
+            </p>
+            </section>
+        <section>
+            <table>
+                <tr>
+                    <th>Instrumento</th>
+                    <th>Tipo</th>
+                    <th>Imagen</th>
+                </tr>
+                <tr>
+                    <td>Guitarra</td>
+                    <td>Cuerda</td>
+                    <th><img src="img/guitarra.jpg" alt="Imagen de guitarra" width="75px"></th>
+                </tr>
+                <tr>
+                    <td>Tambor</td>
+                    <td>Percución</td>
+                    <th><img src="img/tambor.jpeg" alt="Imagen de tambor" width="75px"></th>
+                </tr>
+                <tr>
+                    <td>Trompeta</td>
+                    <td>De aire</td>
+                    <th><img src="img/trompeta.jpg" alt="Imagen de trompeta" width="75px"></th>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Cancion favorita de Heriberto</h2>
+            <p><a href="https://www.youtube.com/watch?v=JHhV9TPNmTI">Angus & Julia Stone - Grizzly Bear</a></p>
+            <img src="img/grizzlybear.jpg" alt="angus&julia" width="200px">
+        </section>
+        <section>
+            <h2>Cancion favorita de Patricio</h2>
+            <p><a href="https://www.youtube.com/watch?v=qyc07COpZDQ">La trampa es Ley, de Lit Killah</a></p>
+            <img src="img/latramaesley.jpg" alt="litkillah" width="200px">
+        </section>
+        <section>
+            <h2>Fiesta</h2>
+            <p>Es bien sabido que en las fiestas <br>
+                la musica nunca puede faltar.</p>
+            <video width="300" controls>
+                <source src="video/eltaotao.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section>
+            <h2>Clasica ejemplo</h2>
+            <p>Sabias tu que la cancion del Chavo del 8<br>
+                 es una cancion clasica de Beethoven<br>
+                  llamada "Marcha turca"</p>
+            <audio controls>
+                <source src="audio/marchaturca.mp3" type="audio/mp3">
+            </audio>
+        </section>
+        <section>
+            <h2>Sobre ti</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <label for="instrumento">Instrumento:</label>
+                <input type="radio" id="guitarra" name="instrumento" value="guitarra">
+                <label for="guitarra">Guitarra</label>
+                <input type="radio" id="tambor" name="instrumento" value="tambor">
+                <label for="tambor">Tambor</label><br><br>
+                <input type="radio" id="trompeta" name="instrumento" value="trompeta">
+                <label for="trompeta">Trompeta</label><br><br>
+                <label for="opciones">Generos de tu agrado:</label>
+                <input type="checkbox" id="rock" name="opciones" value="rock">
+                <label for="rock">Rock</label>
+                <input type="checkbox" id="pop" name="opciones" value="pop">
+                <label for="pop">Pop</label><br><br>
+                <input type="checkbox" id="regional" name="opciones" value="regional">
+                <label for="regional">Regional</label><br><br>
+                <input type="checkbox" id="regaeton" name="opciones" value="regaeton">
+                <label for="regaeton">Regaeton</label><br><br>
+                <input type="checkbox" id="jazz" name="opciones" value="jazz">
+                <label for="jazz">Jazz</label><br><br>
+                <label for="select">¿Qué te gusta mas?:</label>
+                <select id="select" name="select">
+                    <option value="nada"></option>
+                    <option value="tocar">Tocar un instrumento</option>
+                    <option value="cantar">Cantar</option>
+                    <option value="bailar">Bailar</option>
+                </select><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section >
+            <div>
+               <h4>Para saber mas de música o instrumentos musicales investiga aquí.</h4> 
+             <iframe src="https://concepto.de/musica/" style="border:4px solid rgb(233, 245, 168);" 
+        width="800px" height="400px" title="concepto"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Patricio Israel Tristán García y Heriberto Perez Ruiz</p>
+    </footer>
+</body>
+</html>
